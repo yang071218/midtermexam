@@ -1,0 +1,175 @@
+body{
+	background-image: url("yay.jpg");
+	background-repeat: no-repeat;
+	background-size: 1400px 800px;
+	display: flex;
+	justify-content: center;
+	align-items: left;
+	height: 100vh;
+	flex-direction: column;
+	margin-left: 50px;
+
+
+}
+
+ *{
+ 	font-family: sans-serif;
+ 	box-sizing: border-box;
+}
+
+form{
+	width: 500px;
+	border: 5px solid white;
+	padding: 30px;
+	background: transparent;
+	border-radius: 10px;
+	margin-bottom: 40px;
+
+}
+
+img {
+	height: 100px;
+	width: 100px;
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+}
+
+h2 {
+	text-align: center;
+	margin-top: 3px;
+	margin-bottom: 40px;
+}
+
+input{
+	display: block;
+	width: 95%;
+	padding: 10px;
+	margin: 10px auto;
+	background-color: transparent;
+	color: white;
+	border: none;
+  	border-bottom: 2px solid black;
+}
+
+input:focus{
+	background: black;
+	outline: none;
+}
+label{
+	color: white;
+	font-family: Helvetica, sans-serif;
+	font-size: 18px;
+	padding: 10px;
+}
+
+button {
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+	background: #555;
+	padding: 10px 80px;
+	color: #fff;
+	border-radius: 5px;
+	border: none;
+	font-size: 15px;
+	cursor: pointer;
+}
+button:hover{
+	opacity: .7;
+}
+.error {
+	background: black;
+	color: white;
+	padding: 10px;
+	width: 95%;
+	border-radius: 5px;
+	margin: 20px auto;
+}
+
+h1 {
+	text-align: center;
+	margin-right: 300px;
+	font-size: 100px;
+	color: white;
+}
+
+a[href*="logout"] {
+	text-align: center;
+	background: #555;
+	padding: 10px 10px;
+	width: 1300px;
+	color: #fff;
+	border-radius: 5px;
+	border: none;
+	text-decoration: none;
+}
+a:hover{
+	opacity: .7;
+}
+a{
+	color:white;
+}
+a:active {
+  color: blue;
+}
+
+.gen{
+	position: absolute;
+	left: 0;
+	top: 10px;
+	background: #555;
+	padding: 10px 80px;
+	color: #fff;
+	border-radius: 5px;
+	border: none;
+	font-size: 15px;
+	cursor: pointer;
+}
+.codenum{
+	position: absolute;
+	left:30px;
+	color: black;
+}
+.form2{
+	background-color: transparent;
+	border: none;
+}
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
